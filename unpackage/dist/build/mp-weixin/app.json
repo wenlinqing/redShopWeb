@@ -1,0 +1,37 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/user/user",
+    "pages/user/order",
+    "pages/index/pay"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "红包购物",
+    "navigationBarBackgroundColor": "#393939",
+    "backgroundColor": "#FFFFFF"
+  },
+  "tabBar": {
+    "color": "#AEB9C2",
+    "selectedColor": "#DE1F1B",
+    "backgroundColor": "#FFFFFF",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/nav1_off.png",
+        "selectedIconPath": "static/nav1_on.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "iconPath": "static/nav2_off.png",
+        "selectedIconPath": "static/nav2_on.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}
